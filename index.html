@@ -13,17 +13,59 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container">
-      <header>
-        <img class="logo-img" src="images/logo.png" alt="logo">
-        <ul class="menu">
-          <li><a href="#">Домой</a></li>
-          <li><a href="#">Особенности</a></li>
-          <li><a href="#">Преимущества</a></li>
-        </ul>
+    <div class="app" id="app">
+      <header class="app-header header">
+        <div class="header-container container">
+          <a href="/" class="header-logo">
+            <img class="logo-img" src="images/logo.svg" alt="System logo" width="190" height="32">
+          </a>
+          <nav class="header-menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#app" class="menu-link">Домой</a>
+              </li>
+              <li class="menu-item">
+                <a href="#features" class="menu-link">Особенности</a>
+              </li>
+              <li class="menu-item">
+                <a href="#benefits" class="menu-link">Преимущества</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
-      <main></main>
-      <footer></footer>
+      <main class="app-main">
+        <section class="hero">
+          <div class="hero-container container">
+            <div class="hero-content">
+              <figure class="hero-figure">
+                <img class="hero-img" src="images/hero_1.jpg" alt="Приложения">
+              </figure>
+              <div class="hero-text">
+                <h1 class="hero-title">Разработано 2000+ приложений</h1>
+                <p class="hero-subtitle">Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, которые доступны в любое время суток</p>
+                <button class="hero-btn">Присоединяйтесь</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="app-footer footer">
+        <div class="footer-container container">
+          <div class="copyright">2000-2022 © System</div>
+          <div class="social">
+            <a href="/" class="social-item">
+              <img src="images/facebook.svg" alt="facebook logo">
+            </a>
+            <a href="/" class="social-item">
+              <img src="images/twitter.svg" alt="twitter logo">
+            </a>
+            <a href="/" class="social-item">
+              <img src="images/instagram.svg" alt="instagram logo">
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
