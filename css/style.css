@@ -168,20 +168,24 @@ h1, h2, h3 {
   background-color: #01626d;
 }
 
-/* Features Section */
+/* Features and Benefits Sections */
 
-.features {
+.features,
+.benefits {
   margin: 5em 0;
 }
 .features-list,
-.features-item {
+.features-item,
+.benefits-list {
   display: flex;
   align-items: flex-start;
 }
-.features-item {
+.features-item,
+.benefits-item {
   width: calc(100%/3);
 }
-.features-item + .features-item {
+.features-item + .features-item,
+.benefits-item + .benefits-item {
   margin-left: 1.25em;
 }
 .features-item-icon {
@@ -191,3 +195,10 @@ h1, h2, h3 {
 .features-item-title {
   margin-bottom: .58em;
 }
+.benefits-title {
+  margin-bottom: .67em;
+}
+.benefits-item-title {
+  margin: 1.33em 0 1em;
+}
+
