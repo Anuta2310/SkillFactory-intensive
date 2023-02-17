@@ -19,10 +19,6 @@ body {
   margin: 0 auto;
   padding: 0 4em;
 }
-a.anchor {
-  position: relative;
-  top: -109px;
-}
 
 /* Typography */
 
@@ -174,7 +170,13 @@ h1, h2, h3 {
 
 .features,
 .benefits {
-  margin: 5em 0;
+  scroll-margin-top: 6.75rem;
+}
+.features {
+  padding: 5em 0;
+}
+.benefits {
+  margin-bottom: 5em;
 }
 .features-list,
 .features-item,
