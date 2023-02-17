@@ -19,6 +19,10 @@ body {
   margin: 0 auto;
   padding: 0 4em;
 }
+a.anchor {
+  position: relative;
+  top: -109px;
+}
 
 /* Typography */
 
@@ -104,15 +108,13 @@ h1, h2, h3 {
   background: #FFFFFF;
   border-radius: 30px;
   margin-left: 1em;
-  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.social-item img {
-  position: absolute;
-  top: 25%;
-  left: 25%;
-}
-.social-item:nth-child(1) img{
-  left: 35%;
+.social-item:hover{
+  background: #c7c7c7;
 }
 
 /* Hero Section */
