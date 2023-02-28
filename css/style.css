@@ -105,8 +105,9 @@ h1, h2, h3 {
   border-radius: 30px;
   margin-left: 1em;
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+.social-item img {
+  margin: auto;
 }
 .social-item:hover{
   background: #c7c7c7;
